@@ -1,4 +1,4 @@
-package Iterators;
+package iterators;
 
 import java.util.Iterator;
 
@@ -14,7 +14,7 @@ public class Fibonacci implements Iterator{
 	}
 
 	@Override
-	public Object next() {}
+	public Object next() {
 		Object answer = x0;
 		int x = x1 + x0;
 		x0 = x1;

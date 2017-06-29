@@ -2,5 +2,5 @@ package parte1;
 
 public interface Predicate {
 
-	public boolean method(Object object);
+	public boolean evaluarPredicado(Object object);
 }
